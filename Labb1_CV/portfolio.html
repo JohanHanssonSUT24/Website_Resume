@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+VN:wght@100..400&display=swap");
+    </style>
+    <link rel="stylesheet" href="./Stylesheet.css" />
+    <title>Portfolio</title>
+  </head>
+  <body
+    style="
+      background-image: url('./Img/photo-1484807352052-23338990c6c6.avif');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    "
+  >
+    <h3></h3>
+    <header>
+      <nav class="navbar">
+        <a href="./kontakt.html"
+          ><img
+            src="./Img/JohanHansson.jpg"
+            class="Nav-pic"
+            alt="Johan Hansson"
+        /></a>
+        <ul>
+          <li class="nav-item"><a href="./index.html">Hem</a></li>
+          <li class="nav-item"><a href="./om mig.html">Om mig</a></li>
+          <li class="nav-item"><a href="./cv.html">CV</a></li>
+          <li class="nav-item active">
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item"><a href="./kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="navbar-container"></div>
+      </nav>
+      <h3></h3>
+    </header>
+    <br />
+    <div class="portfolio-box">
+      <h1>Tidigare projekt</h1>
+      <br />
+      <h3>
+        <img src="./Img/GH-logo.png" width="25" alt="GitHub" />
+        <label for="openModal1" class="modal-trigger"
+          >Banking application
+        </label>
+      </h3>
+      <br />
+      <h3>
+        <img src="./Img/GH-logo.png" width="25" alt="GitHub" />
+        <label for="openModal2" class="modal-trigger">Database </label>
+      </h3>
+      <br />
+      <h3>
+        <img src="./Img/GH-logo.png" width="25" alt="GitHub" />
+        <label for="openModal3" class="modal-trigger">Ordersystem </label>
+      </h3>
+    </div>
+    <input type="checkbox" id="openModal1" class="model-toggle" />
+    <div id="myModal1" class="modal">
+      <div class="modal-content">
+        <label for="openModal1" class="close">&times;</label>
+        <h2>Banking application</h2>
+        <p>
+          Detta är en bankapplikation som jag och min grupp byggde som
+          avslutande projekt för termin 1.
+        </p>
+        <p>
+          <a
+            href="https://github.com/JohanHanssonSUT24/FinalProject_TH-Bank"
+            target="_blank"
+            >Klicka här för att se projektet på GitHub.</a
+          >
+        </p>
+      </div>
+    </div>
+    <input type="checkbox" id="openModal2" class="model-toggle" />
+    <div id="myModal2" class="modal">
+      <div class="modal-content">
+        <label for="openModal2" class="close">&times;</label>
+        <h2>Database</h2>
+        <p>
+          Detta är min första databas jag byggt. Till den finns även ett
+          konsoll-program för navigering.
+        </p>
+        <p>
+          <a
+            href="https://github.com/JohanHanssonSUT24/JohanHansson_SUT24_Slutprojekt_Databaser"
+            target="_blank"
+            >Klicka här för att se projektet på GitHub.</a
+          >
+        </p>
+      </div>
+    </div>
+    <input type="checkbox" id="openModal3" class="model-toggle" />
+    <div id="myModal3" class="modal">
+      <div class="modal-content">
+        <label for="openModal3" class="close">&times;</label>
+        <h2>Resturant ordersystem</h2>
+        <p>
+          Detta är en konsoll-applikation för ett system som tar emot och
+          hanterar beställningar på en resturang..
+        </p>
+        <p>
+          <a
+            href="https://github.com/JohanHanssonSUT24/Labb4_Generic_Collection"
+            target="_blank"
+            >Klicka här för att se projektet på GitHub.</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
