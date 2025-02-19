@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+VN:wght@100..400&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -12,7 +14,7 @@ body {
 a {
   color: rgb(228, 226, 226);
   font-size: 24px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Noto sans", "sans-serif";
   margin-bottom: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0), -1px -1px 1px rgba(0, 0, 0),
     1px -1px 0px rgba(0, 0, 0), -1px 1px 1px rgba(0, 0, 0);
@@ -20,6 +22,7 @@ a {
 h1 {
   color: rgb(228, 226, 226);
   font-size: 45px;
+  font-family: "Montserrat", "sans-serif";
   margin-bottom: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0), -1px -1px 1px rgba(0, 0, 0),
     1px -1px 0px rgba(0, 0, 0), -1px 1px 1px rgba(0, 0, 0);
@@ -27,7 +30,7 @@ h1 {
 h3 {
   color: rgb(228, 226, 226);
   font-size: 24px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Montserrat", "sans-serif";
   margin-bottom: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0), -1px -1px 1px rgba(0, 0, 0),
     1px -1px 0px rgba(0, 0, 0), -1px 1px 1px rgba(0, 0, 0);
@@ -35,7 +38,7 @@ h3 {
 h4 {
   color: rgb(228, 226, 226);
   font-size: 18px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Montserrat", "sans-serif";
   margin-bottom: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0), -1px -1px 1px rgba(0, 0, 0),
     1px -1px 0px rgba(0, 0, 0), -1px 1px 1px rgba(0, 0, 0);
@@ -43,7 +46,7 @@ h4 {
 h5 {
   color: rgb(228, 226, 226);
   font-size: 16px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Noto Sans", "sans-serif";
   margin-bottom: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0), -1px -1px 1px rgba(0, 0, 0),
     1px -1px 0px rgba(0, 0, 0), -1px 1px 1px rgba(0, 0, 0);
@@ -51,6 +54,7 @@ h5 {
 p {
   color: rgb(255, 255, 255);
   font-size: 15px;
+  font-family: "Noto Sans", "sans-serif";
   max-width: 800px;
   margin: 10px auto;
   line-height: 1.6;
@@ -63,7 +67,7 @@ p {
   width: 100%;
   background-color: rgba(237, 225, 225, 0.1);
   backdrop-filter: blur(10px);
-  font-family: "Helvetica", "Serif";
+  font-family: "Montserrat", "sans-serif";
   color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
