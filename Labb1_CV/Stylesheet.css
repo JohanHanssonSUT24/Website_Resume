@@ -116,7 +116,7 @@ p {
 }
 .navbar li {
   font-size: 1.6rem;
-  margin: 0 px;
+  margin: 0;
   transition: 0.3s ease;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
@@ -191,8 +191,11 @@ p {
   h1 {
     font-size: 20px;
   }
+  h3 {
+    font-size: 18px;
+  }
   a {
-    font-size: 14px;
+    font-size: 13px;
   }
   .navbar {
     flex-direction: column;
@@ -216,6 +219,11 @@ p {
   .column {
     width: 100%;
     margin-bottom: 20px;
+  }
+  .contact-box {
+    padding: 15px;
+    margin-right: 10px;
+    margin-right: 10px;
   }
 }
 @media (min-width: 1025px) {
@@ -243,8 +251,8 @@ p {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 30px;
 }
 .job-details {
@@ -315,6 +323,9 @@ p {
   margin-right: 70px;
   margin-top: 30px;
 }
+.portfolio-box h3 {
+  text-decoration: underline;
+}
 .model-toggle {
   display: none;
 }
@@ -363,4 +374,14 @@ p {
   color: rgb(186, 236, 216);
   text-shadow: 1px 1px 1px rgba(0, 0, 0), -1px -1px 1px rgba(0, 0, 0),
     1px -1px 0px rgba(0, 0, 0), -1px 1px 1px rgba(0, 0, 0);
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 10px 0;
+  font-size: 14px;
 }
