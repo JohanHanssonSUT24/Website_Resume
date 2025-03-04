@@ -1,0 +1,56 @@
+{
+  "education": [
+    {
+      "utbildningstitel": "Systemutvecklare.Net<br>",
+      "skola": "Campus Varberg",
+      "period": "2024 - 20XX"
+    },
+    {
+      "utbildningstitel": "Medie- och kommmunikationsvetenskap<br>",
+      "skola": "Högskolan i Halmstad",
+      "period": "2007 - 2010"
+    },
+    {
+      "utbildningstitel": "Certificate in Marketing<br>",
+      "skola": "Santa Barbara City College, USA",
+      "period": "2005 - 2007"
+    },
+    {
+      "utbildningstitel": "Samhällsprogrammet, inriktning ekonomi",
+      "skola": "Kongahällagymnasiet",
+      "period": "2002 - 2004"
+    }
+  ],
+  "work": [
+    {
+      "yrkesroll": "Produktionsledare",
+      "företag": "ICA Reklam",
+      "period": "2021 - 20XX<br>",
+      "rollbeskrivning": "Sedan september 2021 har jag återvänt till min tidigare arbetsplats, ICA Reklam, i rollen som Produktionsledare på ICA Nära-profilen. Mitt huvudansvar är att produktionsleda nationella kampanjer, beställda av ICAs huvudkontor. Våra kampanjer synkas i alla kanaler så som butikshemsidor, direkt reklam, Facebook och skyltpaket. Min roll bevakar framtagningen genom beställning, korrekturläsning och leverans till slutkund."
+    },
+    {
+      "yrkesroll": "Marknadskonsult/VD",
+      "företag": "Konkret vision AB",
+      "period": "2020 - 2022<br>",
+      "rollbeskrivning": "Under 2020 och 2021 utvecklade jag mitt företag, Konkret Vision AB, med fokus på att erbjuda mina kunder bred kompetens inom marknadsföring, varumärkesbyggande, digitala tjänster och print."
+    },
+    {
+      "yrkesroll": "Marknadskommunikatör",
+      "företag": "Nordr Svergie(fd Veidekke)",
+      "period": "2018 - 2020<br>",
+      "rollbeskrivning": "Ansvarig för att driva intressenter till kommande, nyproducerade, lägenheter och småhus genom att skapa marknadsplaner, hantera beställningar mot externa och interna leverantörer samt produktion av kampanjer i Sociala medier, mail och webb."
+    },
+    {
+      "yrkesroll": "Campaign manager",
+      "företag": "ICA Reklam",
+      "period": "2015 - 2018<br>",
+      "rollbeskrivning": "Som Campaign manager styrde jag ett team om 6 CRM-koordinatorer för att säkerställa att arbetsbelastningen var jämnt fördelad, moralen var bra, hantera större reklamationer och att vara ett övergripande stöd åt mitt team. Min största arbetsuppgift var att sköta all kontakt med huvudkontoret i Solna för att ta fram nationella kampanjer för samtliga ICA Maxi-butiker i Sverige och att arbeta fram den kommunikationsgrund som vi byggde butikernas egna, unika, marknadsplaner efter."
+    },
+    {
+      "yrkesroll": "Projektkoordinator",
+      "företag": "ICA Reklam",
+      "period": "2013 - 2015<br>",
+      "rollbeskrivning": "I rollen Projektkoordinator var jag en del av en utvecklingsgrupp som säkerställde framtagningen av en ny produktionsplattform för CRM-produktion inom ICA. Mina arbetsuppgifter innefattade bland annat författande av kravställning mot utvecklare, säkerställa nya funktioner samt testa dessa mot beställning."
+    }
+  ]
+}
