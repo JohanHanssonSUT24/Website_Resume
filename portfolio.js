@@ -1,3 +1,4 @@
+document.querySelector(".loading-content").style.display = "flex";
 fetch("https://api.github.com/users/JohanHanssonSUT24/repos")
   .then((response) => response.json())
   .then((repos) => {
@@ -10,6 +11,8 @@ fetch("https://api.github.com/users/JohanHanssonSUT24/repos")
         `;
     });
     document.querySelector(".portfolio-box").innerHTML = portfolioHTML;
+
+    document.querySelector(".loading-content").style.display = "none";
   })
   .catch((error) => {
     console.log("Error fetching GitHub repos", error);

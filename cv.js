@@ -1,43 +1,45 @@
 document.addEventListener("DOMContentLoaded", async function () {
-  await fetch("./cv.json")
-    .then((response) => response.json())
-    .then((data) => {
-      console.log(data);
-      const educationContainer = document.querySelector(".left-column");
-      const workContainer = document.querySelector(".right-column");
+  try {
+    const response = await fetch("./cv.json");
+    const data = await response.json();
+    console.log(data);
 
-      data.education.forEach((education) => {
-        const eduElement = document.createElement("div");
-        eduElement.classList.add("edu");
+    const educationContainer = document.querySelector(".left-column");
+    const workContainer = document.querySelector(".right-column");
 
-        const eduTitle = document.createElement("h4");
-        eduTitle.classList.add("edu-title");
-        eduTitle.innerHTML = `${education.utbildningstitel}`;
+    data.education.forEach((education) => {
+      const eduElement = document.createElement("div");
+      eduElement.classList.add("edu");
 
-        const eduDetails = document.createElement("p");
-        eduDetails.classList.add("edu-details");
-        eduDetails.textContent = `${education.skola} ${education.period}`;
+      const eduTitle = document.createElement("h4");
+      eduTitle.classList.add("edu-title");
+      eduTitle.innerHTML = `${education.utbildningstitel}`;
 
-        eduElement.appendChild(eduTitle);
-        eduElement.appendChild(eduDetails);
-        educationContainer.appendChild(eduElement);
-      });
-      data.work.forEach((job) => {
-        const jobElement = document.createElement("div");
-        jobElement.classList.add("job");
+      const eduDetails = document.createElement("p");
+      eduDetails.classList.add("edu-details");
+      eduDetails.textContent = `${education.skola} ${education.period}`;
 
-        const jobTitle = document.createElement("h4");
-        jobTitle.classList.add("job-title");
-        jobTitle.textContent = `${job.yrkesroll}`;
+      eduElement.appendChild(eduTitle);
+      eduElement.appendChild(eduDetails);
+      educationContainer.appendChild(eduElement);
+    });
+    data.work.forEach((job) => {
+      const jobElement = document.createElement("div");
+      jobElement.classList.add("job");
 
-        const jobDetails = document.createElement("p");
-        jobDetails.classList.add("job-details");
-        jobDetails.innerHTML = `${job.företag} ${job.period} ${job.rollbeskrivning}`;
+      const jobTitle = document.createElement("h4");
+      jobTitle.classList.add("job-title");
+      jobTitle.textContent = `${job.yrkesroll}`;
 
-        jobElement.appendChild(jobTitle);
-        jobElement.appendChild(jobDetails);
-        workContainer.appendChild(jobElement);
-      });
-    })
-    .catch((error) => console.error("Error loading JSON-file"));
+      const jobDetails = document.createElement("p");
+      jobDetails.classList.add("job-details");
+      jobDetails.innerHTML = `${job.företag} ${job.period} ${job.rollbeskrivning}`;
+
+      jobElement.appendChild(jobTitle);
+      jobElement.appendChild(jobDetails);
+      workContainer.appendChild(jobElement);
+    });
+  } catch (error) {
+    console.error("Error loading JSON-file");
+  }
 });
