@@ -1,7 +1,7 @@
 document.getElementById("easteregg").addEventListener("click", function () {
   console.log("Easter egg clicked!");
   document.body.style.backgroundImage =
-    "url('./img/pexels-pixabay-461940.jpg')";
+    "url('./Img/pexels-pixabay-461940.jpg')";
   document.body.style.backgroundSize = "cover";
   document.body.style.backgroundPosition = "center";
 
