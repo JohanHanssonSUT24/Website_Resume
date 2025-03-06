@@ -415,3 +415,33 @@ p {
     transform: rotate(360deg);
   }
 }
+#cv {
+  background-image: url("./Img/pexels-fauxels-3183183.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#index {
+  background-image: url("./Img/pexels-markusspiske-1089438.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#contact {
+  background-image: url("./Img/pexels-pixabay-356056.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#me {
+  background-image: url("./Img/pexels-vojta-kovarik-388639-1275415.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#portfolio {
+  background-image: url("./Img/photo-1484807352052-23338990c6c6.avif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
