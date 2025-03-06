@@ -1,5 +1,12 @@
 document.getElementById("easteregg").addEventListener("click", function () {
-  window.location.href = "tel:+46707531173";
+  console.log("Easter egg clicked!");
+  document.body.style.backgroundImage = "url('pexels-pixabay-461940.jpg')";
+  document.body.style.backgroundSize = "cover";
+  document.body.style.backgroundPosition = "center";
+
+  setTimeout(() => {
+    window.location.href = "tel:+46707531173";
+  }, 500);
 });
 let code = [];
 const easterEggCode = ["6", "6", "6"];

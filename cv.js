@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", async function () {
   try {
     const response = await fetch("./cv.json");
+    if (!response.ok) {
+      throw new Error("Kunde inte läsa filen");
+    }
     const data = await response.json();
     console.log(data);
 
